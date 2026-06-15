@@ -1,0 +1,15 @@
+# Block dataset directories
+data/
+datasets/
+ADNI_MRI_Only/
+ADNI_PET_Only/
+
+# Block large model checkpoints and weights
+*.pth
+*.pt
+*.h5
+
+# Block python cache & virtual environments
+__pycache__/
+.venv/
+.ipynb_checkpoints/
